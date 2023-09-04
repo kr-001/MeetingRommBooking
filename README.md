@@ -44,29 +44,28 @@ To run this application on your local machine, follow these steps:
    npm install
    ```
 
-3. Configure the MongoDB connection in the `config.js` file.
-
-4. Start the Node.js server:
-
+3. Open another terminal window, and  do fillowing steps to start node server.
    ```bash
-   npm start
+   cd mini-booking-system
+   cd server
+   nodemon server.js
    ```
 
-5. Access the application in your web browser at `http://localhost:3000`.
+4. Access the application in your web browser at `http://localhost:3000`.
 
 ## Technologies Used
-
+- **React**: Used for frontend.
 - **Node.js**: Used for the backend server and business logic.
 - **MongoDB**: Serves as the database for storing room booking data.
 - **Express.js**: A web application framework for Node.js that simplifies routing and handling HTTP requests.
 - **HTML/CSS**: Provides the front-end structure and styling.
 - **Bootstrap**: Used for responsive and user-friendly design.
-- **Mongoose**: An ODM (Object Data Modeling) library for MongoDB, simplifying database interactions.
+- **MongoDb**: An ODM (Object Data Modeling) library for MongoDB, simplifying database interactions.
 - **EJS**: A templating engine for rendering dynamic HTML content.
 
 ## Contributors
 
-- [Your Name](https://github.com/kr-001)
+- [Kumar Ravi](https://github.com/kr-001)
 ## DUMMY LOGIN DETAILS:
 - User1 , password1
 - User2 , password2
