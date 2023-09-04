@@ -50,8 +50,10 @@ To run this application on your local machine, follow these steps:
    cd server
    nodemon server.js
    ```
+4. You have to create a database in mongodb and 2 collections, 1 for rooms and 1 for users.
+5. After Creation, please find **users.json** and **rooms.json** file to insert data into respective collections in your db
 
-4. Access the application in your web browser at `http://localhost:3000`.
+6. Access the application in your web browser at `http://localhost:3000`.
 
 ## Technologies Used
 - **React**: Used for frontend.
