@@ -1,0 +1,39 @@
+{
+    "rooms": [
+      {
+        "id": 1,
+        "name": "Room A",
+        "isBooked": false,
+        "availableSlots": [
+                          {"timeSlot": "9:00-9:30","disabled":false},
+                          {"timeSlot":"9:30-10:00","disabled":false},
+                          {"timeSlot":"10:00-10:30","disabled":false}
+                         ],
+        "bookedSlots": []
+      },
+      {
+        "id": 2,
+        "name": "Room B",
+        "isBooked": false,
+        "availableSlots": [
+          {"timeSlot": "9:00-9:30","disabled":false},
+          {"timeSlot":"9:30-10:00","disabled":false},
+          {"timeSlot":"10:00-10:30","disabled":false}
+         ],
+        "bookedSlots": []
+      },
+      {
+        "id": 3,
+        "name": "Room C",
+        "isBooked": false,
+        "availableSlots": [
+          {"timeSlot": "9:00-9:30","disabled":false},
+          {"timeSlot":"9:30-10:00","disabled":false},
+          {"timeSlot":"10:00-10:30","disabled":false}
+         ],
+        "bookedSlots": []
+      }
+    ],
+    "bookings": []
+  }
+  

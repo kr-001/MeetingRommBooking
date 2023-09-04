@@ -1,0 +1,38 @@
+.homepageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    
+}
+
+#homepageHeading0{
+    text-align: center;
+    margin-bottom: 5px;
+    animation: fadeIn 2s ease-in-out;
+
+}
+#homepageClick{
+    transition: transform 0.2s;
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in-out 50ms;
+}
+
+
+#homepageClick:hover{
+    background-color: green;
+    transform: sacle(2.2);
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
