@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "64f45b4af1e2cfaacf4093b3"
+  },
+  "id": 2,
+  "name": "Room B",
+  "isBooked": false,
+  "availableSlots": [
+    {
+      "timeSlot": "9:00-9:30",
+      "disabled": false
+    },
+    {
+      "timeSlot": "9:30-10:00",
+      "disabled": false
+    },
+    {
+      "timeSlot": "10:00-10:30",
+      "disabled": false
+    }
+  ],
+  "bookedSlots": []
+},
+{
+  "_id": {
+    "$oid": "64f45b52f1e2cfaacf4093b5"
+  },
+  "id": 3,
+  "name": "Room C",
+  "isBooked": false,
+  "availableSlots": [
+    {
+      "timeSlot": "9:00-9:30",
+      "disabled": false
+    },
+    {
+      "timeSlot": "9:30-10:00",
+      "disabled": false
+    },
+    {
+      "timeSlot": "10:00-10:30",
+      "disabled": false
+    }
+  ],
+  "bookedSlots": []
+}]
